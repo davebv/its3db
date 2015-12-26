@@ -1,6 +1,9 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$fa-font-path: "../bower_components/components-font-awesome/fonts/";
+$body-bg: transparent;
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "components-font-awesome/scss/font-awesome.scss";
 // endbower
 
 .browsehappy {
@@ -88,4 +91,29 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+html {
+    background: url(/images/DSC_0100.jpg) no-repeat center center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.col-md-4 {
+  background-color: white;
+  color: #888;
+}
+
+.top-buffer {
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #333;
 }
