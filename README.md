@@ -14,4 +14,4 @@ Running `grunt test` will run the unit tests with karma.
 ## Deploying
 
 Running `grunt build` will build the web and store it in dist folder.
-Deploying is done via `grunt buildconfig:pages`
+Deploying is done via `grunt buildcontrol:pages`
