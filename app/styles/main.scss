@@ -94,22 +94,25 @@ body {
 }
 
 html {
-    background: url(../images/DSC_0100.jpg) no-repeat center center fixed;
-    background-color: black;
+    //background: url(../images/DSC_0100.jpg) no-repeat center center fixed;
+    background-color: #ddd;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.col-md-4 {
-  background-color: rgba(white, 0.8);
+.mybox {
+  background-color: rgba(white, 1);
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   color: #888;
+  box-shadow: #ccc -30px 30px 0px;
 }
 
 .top-buffer {
-  margin-top:10px;
-  margin-bottom: 10px;
+  //margin-top:10px;
+  //margin-bottom: 10px;
 }
 
 .subtitle {
