@@ -29,6 +29,8 @@
   <!-- mapfile https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.0/css/bulma.min.css.map -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="font.css">
+
 </head>
 
 <body>
@@ -75,7 +77,7 @@
 
     
         <h1 class="title">
-          it's 3dB 
+          <object type="image/svg+xml" data="text.svg" style="width:200px;height:200px">It's 3dB</object>
         </h1>
         <h2 class="subtitle">
           is David Becerril 
@@ -84,13 +86,13 @@
     </div>
   </section>
 
-  <section class="hero is-black">
+  <section class="hero is-black is-fullheight">
     <div class="hero-body">
       <div class="container has-text-centered">
 
         <svg version="1.1"
           baseProfile="full"
-          width="100" height="100"
+          width="200" height="200"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -127,7 +129,6 @@
           <use xlink:href="#myTriangle" stroke="#53E7EA" stroke-width="5"/>
           <use xlink:href="#myTriangle" stroke="#5BF8FA" stroke-width="10" mask="url(#Mask)"/>
 
-          <!--circle cx="250" cy="250" r="140" stroke="blue" fill-opacity="0"/-->
         </svg>
 
       </div>
@@ -189,40 +190,18 @@
 
 
   <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>
-      <svg version="1.1"
-          baseProfile="full"
-          width="50" height="50"
-          viewBox="0 0 500 500"
-          xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <radialGradient id="Gradient" cx="0.5" cy="0.5" r="0.45">
-              <stop offset="0" stop-color="black" stop-opacity="1" />
-              <stop offset="0.5" stop-color="black" stop-opacity="0.5" />
-              <stop offset="1" stop-color="white" stop-opacity="1" />
-            </radialGradient>
-            <mask id="Mask">
-              <rect x="0" y="0" rx="0" ry="0" width="500" height="500" fill="url(#Gradient)"/>
-            </mask>
-            <polygon id="myTriangle2" points="20,130 250,480 480,130" fill-opacity="0"  />
-           
-          </defs>
-
-          <use xlink:href="#myTriangle2" stroke="#53E7EA" stroke-width="5"/>
-          <use xlink:href="#myTriangle2" stroke="#5BF8FA" stroke-width="10" mask="url(#Mask)"/>
-
-          <!--circle cx="250" cy="250" r="140" stroke="blue" fill-opacity="0"/-->
-        </svg>
-
-      </p>
-      <p>
-       &copy; 2017 David Becerril and It's 3dB
-      </p>
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          &copy; 2017 David Becerril and It's 3dB
+        </p>
+        <p>
+          <object data="invtriangle.svg#triangle" type="image/svg+xml" width="70" height="70">
+          </object>
+        </p>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

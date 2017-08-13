@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "RR Beaver";
+  src: url("font/beaver.eot?") format("eot"), url("font/beaver.woff") format("woff"), url("font/beaver.ttf") format("truetype"), url("font/beaver.svg#Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

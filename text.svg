@@ -1,0 +1,32 @@
+<svg version="1.1"
+  baseProfile="full"
+  width="100%" height="100%"
+  viewBox="0 0 500 500"
+  class="logo3dB"
+  id="logotxt"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="txtGradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d8d8d8" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#a4a5a5" stop-opacity="1" />
+      <stop offset="1" stop-color="#c9c9c9" stop-opacity="1" />
+    </linearGradient>
+
+    <mask id="dbMask">
+      <rect x="0" y="0" rx="0" ry="0" width="500" height="500" fill="black"/>
+      <rect x="0" y="0" rx="0" ry="0" width="215" height="300" transform=" translate(190, 100) rotate(-35 100 150)" fill="white"/>
+    </mask>
+    <mask id="3Mask">
+      <rect x="0" y="0" rx="0" ry="0" width="500" height="500" fill="black"/>
+      <rect x="0" y="0" rx="0" ry="0" width="90" height="300" transform=" translate(127, 200) rotate(-35 45 150)" fill="white"/>
+    </mask>
+
+  </defs>
+
+  <text x="90" y="250" font-size="70" font-family="RR Beaver" fill="url(#txtGradient)">It's</text>
+  <text x="88" y="400" font-size="200" font-family="RR Beaver" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
+  <text x="200" y="340" font-size="200" font-family="RR Beaver" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
+</svg>
+
+
