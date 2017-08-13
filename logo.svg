@@ -42,9 +42,9 @@
   <use xlink:href="#invertedTriangle" id="trIn" stroke="#929899" stroke-width="5"/>
   <use xlink:href="#invertedTriangle" id="trOut" stroke="#616566" stroke-width="10" mask="url(#Mask)" />
 
-  <text x="90" y="250" font-size="70" font-family="beaver" fill="url(#txtGradient)">It's</text>
-  <text x="88" y="400" font-size="200" font-family="beaver" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
-  <text x="200" y="340" font-size="200" font-family="beaver" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
+  <text x="90" y="250" font-size="70" font-family="rr_beaver" fill="url(#txtGradient)">It's</text>
+  <text x="88" y="400" font-size="200" font-family="rr_beaver" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
+  <text x="200" y="340" font-size="200" font-family="rr_beaver" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
 
 </svg>
 

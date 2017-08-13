@@ -24,9 +24,9 @@
 
   </defs>
 
-  <text x="90" y="250" font-size="70" font-family="beaver" fill="url(#txtGradient)">It's</text>
-  <text x="88" y="400" font-size="200" font-family="beaver" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
-  <text x="200" y="340" font-size="200" font-family="beaver" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
+  <text x="90" y="250" font-size="70" font-family="RR Beaver" fill="url(#txtGradient)">It's</text>
+  <text x="88" y="400" font-size="200" font-family="RR Beaver" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
+  <text x="200" y="340" font-size="200" font-family="RR Beaver" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
 </svg>
 
 
