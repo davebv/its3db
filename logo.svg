@@ -7,6 +7,22 @@
   id="logo"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+
+
+@font-face {
+    font-family: 'rr_beaverregular';
+    src: url('beaver.eot');
+    src: url('beaver.eot?#iefix') format('embedded-opentype'),
+         url('beaver.woff2') format('woff2'),
+         url('beaver.woff') format('woff'),
+         url('beaver.ttf') format('truetype'),
+         url('beaver.svg#rr_beaverregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  </style>
   <defs>
     <radialGradient id="Gradient" cx="0.5" cy="0.5" r="0.45">
       <stop offset="0" stop-color="black" stop-opacity="1" />
@@ -42,9 +58,9 @@
   <use xlink:href="#invertedTriangle" id="trIn" stroke="#929899" stroke-width="5"/>
   <use xlink:href="#invertedTriangle" id="trOut" stroke="#616566" stroke-width="10" mask="url(#Mask)" />
 
-  <text x="90" y="250" font-size="70" font-family="rr_beaver" fill="url(#txtGradient)">It's</text>
-  <text x="88" y="400" font-size="200" font-family="rr_beaver" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
-  <text x="200" y="340" font-size="200" font-family="rr_beaver" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
+  <text x="90" y="250" font-size="70" font-family="rr_beaverregular" fill="url(#txtGradient)">It's</text>
+  <text x="88" y="400" font-size="200" font-family="rr_beaverregular" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
+  <text x="200" y="340" font-size="200" font-family="rr_beaverregular" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
 
 </svg>
 

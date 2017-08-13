@@ -6,6 +6,22 @@
   id="logotxt"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+
+
+@font-face {
+    font-family: 'rr_beaverregular';
+    src: url('beaver.eot');
+    src: url('beaver.eot?#iefix') format('embedded-opentype'),
+         url('beaver.woff2') format('woff2'),
+         url('beaver.woff') format('woff'),
+         url('beaver.ttf') format('truetype'),
+         url('beaver.svg#rr_beaverregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  </style>
   <defs>
     <linearGradient id="txtGradient" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#d8d8d8" stop-opacity="1" />
@@ -24,9 +40,9 @@
 
   </defs>
 
-  <text x="90" y="250" font-size="70" font-family="RR Beaver" fill="url(#txtGradient)">It's</text>
-  <text x="88" y="400" font-size="200" font-family="RR Beaver" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
-  <text x="200" y="340" font-size="200" font-family="RR Beaver" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
+  <text x="90" y="250" font-size="70" font-family="rr_beaverregular" fill="url(#txtGradient)">It's</text>
+  <text x="88" y="400" font-size="200" font-family="rr_beaverregular" mask="url(#3Mask)" fill="url(#txtGradient)"> 3</text>
+  <text x="200" y="340" font-size="200" font-family="rr_beaverregular" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
 </svg>
 
 
