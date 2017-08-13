@@ -1,9 +1,10 @@
 @font-face {
-  font-family: "RR Beaver";
-  src: url("./font/beaver.eot?") format("eot"),
-      url("./font/beaver.woff") format("woff"),
-      url("./font/beaver.ttf") format("truetype"),
-      url("./font/beaver.svg#Regular") format("svg");
+  font-family: "beaver";
+  src: url("./beaver.eot?") format("eot"),
+      url("./beaver.woff2") format("woff2"),
+      url("./beaver.woff") format("woff"),
+      url("./beaver.ttf") format("truetype"),
+      url("./beaver.svg#Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
