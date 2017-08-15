@@ -25,9 +25,9 @@
   </style>
   <defs>
     <linearGradient id="txtGradient" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d8d8d8" stop-opacity="1" />
-      <stop offset="0.5" stop-color="#a4a5a5" stop-opacity="1" />
-      <stop offset="1" stop-color="#c9c9c9" stop-opacity="1" />
+      <stop offset="0" stop-color="black" stop-opacity="0.4" />
+      <stop offset="0.5" stop-color="black" stop-opacity="0.8" />
+      <stop offset="1" stop-color="black" stop-opacity="0.6" />
     </linearGradient>
 
     <mask id="dbMask">
@@ -45,6 +45,7 @@
     <text x="90" y="250" font-size="70" font-family="rr_beaverregular" fill="url(#txtGradient)">It's </text>
     <text x="88" y="400" font-size="200" font-family="rr_beaverregular" mask="url(#3Mask)" fill="url(#txtGradient)">3</text>
     <text x="200" y="340" font-size="200" font-family="rr_beaverregular" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
+    <text x="205" y="400" font-size="70" font-family="rr_beaverregular" fill="gray">is music</text>
   </g>
 </svg>
 
