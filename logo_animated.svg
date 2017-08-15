@@ -113,9 +113,27 @@
   </script>
 
     <rect x="0" y="0" width="500" height="50" id="recani">
+      <animateTransform id="animation1"
+      attributeType="XML"
+      attributeName="transform"
+      type="translate"
+      from="0 0" to="0 0"
+      dur="0.5s"
+      onrepeat="redAni(evt)"
+      begin="0s"
+      repeatCount="indefinite"/>
     </rect>
 
     <rect x="0" y="0" width="500" height="50" id="recani2">
+      <animateTransform id="animation1"
+      attributeType="XML"
+      attributeName="transform"
+      type="translate"
+      from="0 0" to="0 500"
+      dur="0.3s"
+      onrepeat="blueAni(evt)"
+      begin="0s"
+      repeatCount="indefinite"/>
     </rect>
 
     <mask id="red">
@@ -151,6 +169,14 @@
   <use xlink:href="#invertedTriangle" id="trIn" stroke="#5BF8FA" stroke-width="5" opacity="0.8"/>
   <use xlink:href="#invertedTriangle" id="trOut" stroke="#5BF8FA" stroke-width="10" mask="url(#Mask)" filter="url(#bl1)" />
   <use xlink:href="#invertedTriangle" id="trOut" stroke="#5BF8FA" stroke-width="10" mask="url(#Mask)" />
+            <animate id="opaani"
+            attributeType="XML"
+            attributeName="opacity"
+            from="0" to="1"
+            dur="0.4s"
+            onrepeat="light(evt)"
+            begin="0s"
+            repeatCount="indefinite"/>
  
   </g>
 
@@ -163,7 +189,8 @@
   -->
 
   <use xlink:href="#3dbtxt" class="glitch" id="t1" opacity="1" transform="translate(0,0)" mask="url(#invr)"/>
-
+  <use xlink:href="#3dbtxt" class="glitch" id="tRed" opacity="1" transform="translate(-2,0)" mask="url(#red)" filter="url(#shadowRed)"/>
+  <use xlink:href="#3dbtxt" class="glitch" id="tBlue" opacity="1" transform="translate(2,0)" mask="url(#blue)" filter="url(#shadowBlue)"/>
 
   </g>
 
