@@ -25,9 +25,33 @@
   <meta property="og:description"        content="Music and Engineering, all in one place" />
   <meta property="og:image"              content="https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/t_medium/v1507650973/ubzjpgvnueawtxwgkofm.jpg" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
   <!-- mapfile https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.0/css/bulma.min.css.map -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css" media="screen">
+    .flying-in {
+      color: white;
+      background: rgb(43,208,252);
+    }
+    .flying-in .title, .flying-in .subtitle, .flying-in .heading {
+      color: white;
+      background: rgb(43,208,252);
+    }
+    /* Workaround for links and objects */
+    a.svgl {
+      position:relative;
+      display: inline-block;
+    }
+    a.svgl:after {
+      content:"";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left:0;
+    }
+  </style>
 
 
   <script type="application/ld+json">
@@ -35,7 +59,7 @@
     "@context": "http://schema.org",
     "@type": "Website",
     "url": "http://www.3db.in",
-    "name": "Unlike Pluto - Everything Black (It's 3dB remix)",
+    "name": "It's 3dB - David Becerril",
     "alternateName": "It's 3dB Music and David Becerril"     
   },
   {
@@ -63,30 +87,39 @@
 
 <body>
 
-  <section class="hero is-bold is-fullheight">
+  <section class="hero is-bold is-fullheight flying-in">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <div class="columns">
-          <div class="column is-one-third is-offset-one-third">
-            <div class="card">
-              <div class="card-header">
-                <p class="card-header-title">Unlike Pluto - Everything Black (it's 3dB remix)</p>
-                
+        <div class="level anouncement">
+          <div class="level-left">
+            <div class="level-item has-text-centered">
+              <div>
+                <h1 class="title">
+                  <object type="image/svg+xml" data="text_white.svg" style="height:95px;">It's 3dB</object>
+                </h1>
+                <h2 class="heading">
+                  is David Becerril 
+                </h2>
               </div>
-              <div class="card-image">
-
-                <iframe src='https://splice.com/release/?id=60700d76-0380-3c80-4c0a-58a62a96f93b90a5ef4&' width='100%' height='450' scrolling='no' frameborder='no'></iframe>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+                <object type="image/svg+xml" data="flying_in.svg" style="height:700px;">Flying in (single)</object>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">New single on</p>
+                <p class="title">15.Nov.2017</p>
               </div>
             </div>
           </div>
         </div>
-    
-        <h1 class="title">
-          <object type="image/svg+xml" data="text.svg" style="height:95px;">It's 3dB</object>
-        </h1>
-        <h2 class="subtitle">
-          is David Becerril 
-        </h2>
+      </div>
+
+
       </div>
     </div>
     <div class="hero-bottom">
@@ -101,7 +134,7 @@
             </path>
           </defs>
 
-          <use xlink:href="#myTriangleP" stroke="black" stroke-width="7" stroke-linecap="round" stroke-opacity="0">
+          <use xlink:href="#myTriangleP" stroke="white" stroke-width="7" stroke-linecap="round" stroke-opacity="0">
           <animate id="animation1"
           attributeType="XML"
           attributeName="stroke-opacity"
@@ -112,7 +145,7 @@
           begin="0s"
           />
           </use>
-          <use xlink:href="#myTriangleP" stroke="black" stroke-width="7" stroke-linecap="round" transform="translate(0 100)" stroke-opacity="0">
+          <use xlink:href="#myTriangleP" stroke="white" stroke-width="7" stroke-linecap="round" transform="translate(0 100)" stroke-opacity="0">
           <animate id="animation1"
           attributeType="XML"
           attributeName="stroke-opacity"
@@ -123,7 +156,7 @@
           begin="0.15s"
           />
           </use>
-          <use xlink:href="#myTriangleP" stroke="black" stroke-width="7" stroke-linecap="round" transform="translate(0 200)" stroke-opacity="0">
+          <use xlink:href="#myTriangleP" stroke="white" stroke-width="7" stroke-linecap="round" transform="translate(0 200)" stroke-opacity="0">
           <animate id="animation1"
           attributeType="XML"
           attributeName="stroke-opacity"
