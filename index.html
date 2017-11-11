@@ -56,7 +56,7 @@
       position: relative;
       width: 100%;
       margin: 0 auto;
-      max-width: 700px;
+      overflow: hidden;
     }
     .vwrapper video {
       width: 100%;
@@ -127,12 +127,14 @@
             </div>
           </div>
           <div class="level-item has-text-centered">
-            <div>
-              <div  class="vwrapper" style="width:700px">
+            <div class="is-hidden-touch">
+              <div  class="vwrapper" style="width:500px ">
                 <iframe width="100%" height="700"  src="https://www.youtube.com/embed/zW03VCmTpoI?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=zW03VCmTpoI" frameborder="0" gesture="media" allowfullscreen="0"></iframe>
                 <object id="fly" type="image/svg+xml" data="flying_in.svg" style="height:700px;">Flying in (single)</object>
               </div>
-
+            </div>
+            <div class="title is-hidden-desktop">
+              <object id="fly" type="image/svg+xml" data="flying_in.svg" style="width:100%;">Flying in (single)</object>
             </div>
           </div>
           <div class="level-right">
