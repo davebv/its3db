@@ -1,7 +1,7 @@
 
 var s = Snap("#mainpage");
 
-var l = Snap.load("stk_things.svg", onSVGLoaded);
+var l = Snap.load("./stk_things.svg", onSVGLoaded);
 
 function onSVGLoaded(data) {
   s.append(data);
