@@ -1,0 +1,74 @@
+<svg version="1.1"
+  baseProfile="full"
+  width="100%" height="100%"
+  viewBox="0 0 2000 2000"
+  preserveAspectRatio="xMidYMid slice"
+  class="logo3dB"
+  id="logotxt"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+
+
+@font-face {
+    font-family: 'rr_beaverregular';
+    src: url('beaver.eot');
+    src: url('beaver.eot?#iefix') format('embedded-opentype'),
+         url('beaver.woff2') format('woff2'),
+         url('beaver.woff') format('woff'),
+         url('beaver.ttf') format('truetype'),
+         url('beaver.svg#rr_beaverregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* do not set pointer-events: none! */
+
+
+  </style>
+
+<script type="text/javascript">
+    // <![CDATA[
+    function change(evt) {
+      var target = evt.target;
+      var radius = target.getAttribute("r");
+
+      if (radius == 15) {
+        radius = 45;
+      } else {
+        radius = 15;
+      }
+
+      target.setAttribute("r",radius);
+   }
+   // ]]>
+  </script>
+
+  <defs>
+  <mask id="mask" x="0" y="0" width="100%" height="100%" >
+  <rect x="0" y="0" width="100%" height="100%" fill="white" />
+  <circle cx="1000" cy="1000" r="625" stroke="white" stroke-width="50" fill-opacity="1"  fill="black"/>
+  <rect id="bg_sq" x="0" y="0" width="500" height="2000">
+  </rect>
+  </mask>
+  </defs>
+
+    <use xlink:href="#bg_sq" id="sq_bl" fill="rgb(41,198,253)" />
+    <use xlink:href="#bg_sq" id="sq_pk" fill="rgb(251,38,183)" x="500"/>
+    <use xlink:href="#bg_sq" id="sq_y"  fill="rgb(238,234,79)" x="1000"/>
+    <use xlink:href="#bg_sq" id="sq_pr" fill="rgb(174,40,248)" x="1500"/>
+    
+
+    <g id="gcenter">
+    <circle id="cr_w" cx="1000" cy="1000" r="625" stroke="white" stroke-width="50" fill-opacity="0" />
+    <g transform="translate(0,0)">
+      <text x="1000" y="1000" text-anchor="middle" font-size="96" alignment-baseline="middle" font-family="rr_beaverregular" fill="white">
+      <tspan id="stk_txt" x="1000" dy="-0.17em">Stockholm</tspan>
+      <tspan id="thi_txt" x="1000" dy="1em">Things</tspan>
+      </text>
+    </g>
+    </g>
+</svg>
+
+

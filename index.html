@@ -30,50 +30,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style type="text/css" media="screen">
-    .flying-in {
-      color: white;
-      background: rgb(43,208,252);
-    }
-    .flying-in .title, .flying-in .subtitle, .flying-in .heading {
-      color: white;
-      background: rgb(43,208,252);
-    }
-    /* Workaround for links and objects */
-    a.svgl {
-      position:relative;
-      display: inline-block;
-    }
-    a.svgl:after {
-      content:"";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left:0;
-    }
-
-    .vwrapper {
-      position: relative;
-      width: 100%;
-      margin: 0 auto;
-      overflow: hidden;
-    }
-    .vwrapper video {
-      width: 100%;
-    }
-    .vwrapper svg, .vwrapper object {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .vwrapper svg > rect {
-      -webkit-mask: url(#mask);
-      mask: url(#mask);
-    }
-    .vwrapper svg rect {
-    }
   </style>
 
 
@@ -106,11 +62,12 @@
   ]
   </script>
 
+
 </head>
 
 <body>
 
-  <section class="hero is-bold is-fullheight flying-in">
+  <section class="hero is-bold is-fullheight">
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="level anouncement">
@@ -118,7 +75,7 @@
             <div class="level-item has-text-centered">
               <div>
                 <h1 class="title">
-                  <object type="image/svg+xml" data="text_white.svg" style="height:95px;">It's 3dB</object>
+                  <object type="image/svg+xml" data="text.svg" style="height:95px;">It's 3dB</object>
                 </h1>
                 <h2 class="heading">
                   is David Becerril 
@@ -127,21 +84,14 @@
             </div>
           </div>
           <div class="level-item has-text-centered">
-            <div class="is-hidden-touch">
-              <div  class="vwrapper" style="width:500px ">
-                <iframe width="100%" height="700"  src="https://www.youtube.com/embed/zW03VCmTpoI?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=zW03VCmTpoI" frameborder="0" gesture="media" allowfullscreen="0"></iframe>
-                <object id="fly" type="image/svg+xml" data="flying_in.svg" style="height:700px;">Flying in (single)</object>
-              </div>
-            </div>
-            <div class="title is-hidden-desktop">
-              <object id="fly" type="image/svg+xml" data="flying_in.svg" style="width:100%;">Flying in (single)</object>
-            </div>
+            <!--object id="stk" type="image/svg+xml" data="stk_things.svg" style="height:700px;">Stockholm Thinkgs EP</object-->
+            <svg id="stk_t" height="400" width="400"></svg>
           </div>
           <div class="level-right">
             <div class="level-item has-text-centered">
               <div>
-                <p class="heading">New single on</p>
-                <p class="title">15.Nov.2017</p>
+                <p class="heading">New EP on</p>
+                <p class="title">15.Dec.2017</p>
               </div>
             </div>
           </div>
@@ -347,5 +297,7 @@
 
   </script>
 
+  <script src="snap.svg.js"></script>
+  <script src="stk_things.js"></script>
 </body>
 </html>
