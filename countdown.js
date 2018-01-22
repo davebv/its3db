@@ -1,4 +1,4 @@
-var countDownDate = new Date('Dec 15, 2017 00:00:00').getTime();
+var countDownDate = new Date('Jan 31, 2018 00:00:00').getTime();
 var ele = document.getElementById('release-countdown');
 var containerWidth = ele.getBoundingClientRect().width;
 var heading = ele.getElementsByClassName('heading')[0];
@@ -8,7 +8,7 @@ var title = ele.getElementsByClassName('title')[0];
 ele.style.width = (containerWidth+5) + "px";
 
 // Update initial text
-heading.innerHTML = "New EP in";
+heading.innerHTML = "New Single in";
 
 var x = setInterval(function() {
   var now = new Date().getTime(); // Get now date and time
@@ -27,7 +27,7 @@ var x = setInterval(function() {
 
   if (remainingTime < 0) {
     clearInterval(x);
-    heading.innerHTML = "New EP..."
+    heading.innerHTML = "New Single..."
     title.innerHTML = 'Out Now!'
   }
 }, 1000);
