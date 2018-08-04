@@ -3,6 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
+    <loc>https://www.3db.in/</loc> 
     <loc>https://www.3db.in/index.html</loc> 
     <image:image>
       <image:loc>https://www.3db.in/cover_winter1718_330x330_r2.jpg</image:loc>
