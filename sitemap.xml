@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.3db.in/index.html</loc> 
+    <image:image>
+      <image:loc>https://www.3db.in/cover_winter1718_330x330_r2.jpg</image:loc>
+      <image:caption>Winter 17 18 EP out now in your favourite music straming</image:caption>
+      <image:title>Winter 17 18</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.3db.in/me_256x256.png</image:loc>
+      <image:title>David Becerril Valle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.3db.in/3db_256x256.jpg</image:loc>
+      <image:title>It's 3dB</image:title>
+      <image:caption>It's 3dB Music profile picture</image:caption>
+    </image:image>
+  </url>
+  
+</urlset>
