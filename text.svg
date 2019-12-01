@@ -25,9 +25,9 @@
   </style>
   <defs>
     <linearGradient id="txtGradient" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d8d8d8" stop-opacity="1" />
-      <stop offset="0.5" stop-color="#a4a5a5" stop-opacity="1" />
-      <stop offset="1" stop-color="#c9c9c9" stop-opacity="1" />
+      <stop offset="0" stop-color="#12244d" stop-opacity="1" />
+      <stop offset="0.5" stop-color="#12324d" stop-opacity="1" />
+      <stop offset="1" stop-color="#43124d" stop-opacity="1" />
     </linearGradient>
 
     <mask id="dbMask">
@@ -42,9 +42,9 @@
   </defs>
 
   <g transform="translate(-70,-190)">
-    <text x="90" y="250" font-size="70" font-family="rr_beaverregular" fill="url(#txtGradient)">It's </text>
-    <text x="88" y="400" font-size="200" font-family="rr_beaverregular" mask="url(#3Mask)" fill="url(#txtGradient)">3</text>
-    <text x="200" y="340" font-size="200" font-family="rr_beaverregular" mask="url(#dbMask)" fill="url(#txtGradient)">dB</text>
+    <text x="90" y="250" font-size="70" font-family="rr_beaverregular" fill="url(#txtGradient)" >It's </text>
+    <text x="88" y="400" font-size="200" font-family="rr_beaverregular" mask="url(#3Mask)" fill="url(#txtGradient)" >3</text>
+    <text x="200" y="340" font-size="200" font-family="rr_beaverregular" mask="url(#dbMask)" fill="url(#txtGradient)" >dB</text>
   </g>
 </svg>
 
